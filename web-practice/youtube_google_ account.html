@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Youtube Google Account Page</title>
+    <link rel="stylesheet" href="/web-practice/youtube_google_account.css" />
+    <script
+      src="https://kit.fontawesome.com/cb727dbee1.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="header_start">
+        <img
+          src="	https://www.gstatic.com/images/branding/googlelogo/svg/googlelogo_clr_74x24px.svg"
+          alt=""
+          style="width: 74px; height: 24px"
+        />
+        <span
+          style="
+            display: inline-block;
+            font-size: 22px;
+            font-family: sans-serif;
+            margin-bottom: 6px;
+            color: #5f6368;
+          "
+          >계정</span
+        >
+      </div>
+      <div class="header_center">
+        <div class="search_box">
+          <div class="search_box_icon">
+            <svg style="width: 24px; height: 24px; fill: #5f6368">
+              <path
+                d="M20.49,19l-5.73-5.73C15.53,12.2,16,10.91,16,9.5C16,5.91,13.09,3,9.5,3S3,5.91,3,9.5C3,13.09,5.91,16,9.5,16 c1.41,0,2.7-0.47,3.77-1.24L19,20.49L20.49,19z M5,9.5C5,7.01,7.01,5,9.5,5S14,7.01,14,9.5S11.99,14,9.5,14S5,11.99,5,9.5z"
+              ></path>
+            </svg>
+          </div>
+          <input type="text" placeholder="Google 계정 검색" />
+        </div>
+        <button
+          class="question_icon"
+          style="
+            font-size: 24px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          "
+        >
+          <i class="fa-regular fa-circle-question" style="color: #5f6368"></i>
+        </button>
+      </div>
+      <div class="header_end">
+        <button class="menu_icon">
+          <svg style="width: 24px; height: 24px; fill: #5f6368">
+            <path
+              d="M6,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM16,6c0,1.1 0.9,2 2,2s2,-0.9 2,-2 -0.9,-2 -2,-2 -2,0.9 -2,2zM12,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2z"
+            ></path>
+          </svg>
+        </button>
+        <button class="profile_icon">
+          <img
+            src="https://lh3.google.com/u/0/ogw/AGvuzYa32qPrdi3uMcJUM99rVspV1qNOuCn6mEVL2hZK=s32-c-mo"
+            alt=""
+            style="border-radius: 50%; cursor: pointer"
+          />
+        </button>
+      </div>
+    </header>
+    <nav>
+      <ul>
+        <li class="li_current">
+          <a href="" class="nav_block">
+            <img
+              src="https://www.gstatic.com/identity/boq/accountsettingsmobile/menu_home_selected_24x24_9d6bbfa62af2a7aaa6923725ff3e2e28.png"
+              alt=""
+            />
+            <span style="color: rgb(26, 115, 232)">홈</span>
+          </a>
+        </li>
+        <li>
+          <a href="" class="nav_block">
+            <img
+              src="https://www.gstatic.com/identity/boq/accountsettingsmobile/menu_personalinfo_24x24_2b08480abc2504e2d70d74f2470f0ae0.png"
+              alt=""
+            />
+            <span>개인 정보</span>
+          </a>
+        </li>
+        <li>
+          <a href="" class="nav_block">
+            <img
+              src="https://www.gstatic.com/identity/boq/accountsettingsmobile/menu_data_and_personalization_24x24_1af4cbe9d198b2f4a2e94e52732d8171.png"
+              alt=""
+            />
+            <span>데이터 및 개인 정보 보호</span>
+          </a>
+        </li>
+        <li>
+          <a href="" class="nav_block">
+            <img
+              src="https://www.gstatic.com/identity/boq/accountsettingsmobile/menu_security_24x24_6a1c5821b31ccd7af73a0b8ef07c6795.png"
+              alt=""
+            />
+            <span>보안</span>
+          </a>
+        </li>
+        <li>
+          <a href="" class="nav_block">
+            <img
+              src="https://www.gstatic.com/identity/boq/accountsettingsmobile/menu_people_and_sharing_24x24_f99bacf0b3bb6b80c1159263d4323379.png"
+              alt=""
+            />
+            <span>사용자 및 공유</span>
+          </a>
+        </li>
+        <li>
+          <a href="" class="nav_block">
+            <img
+              src="https://www.gstatic.com/identity/boq/accountsettingsmobile/menu_payments_24x24_c051ee9e35c41e8b0eb8235154cd4585.png"
+              alt=""
+            />
+            <span>결제 및 구독</span>
+          </a>
+        </li>
+        <hr />
+        <li>
+          <a href="" class="nav_block">
+            <img
+              src="https://www.gstatic.com/identity/boq/accountsettingsmobile/menu_info_24x24_317a17c18099ba628fd875d5c1a5c2b3.png"
+              alt=""
+            />
+            <span>정보</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <div class="nav_1024px">
+      <ul>
+        <li>
+          <span style="color: rgb(26, 115, 232)">홈</span>
+          <div class="home_underbar"></div>
+        </li>
+        <li>개인 정보</li>
+        <li>데이터 및 개인 정보 보호</li>
+        <li>보안</li>
+        <li>사용자 및 공유</li>
+        <li>결제 및 구독</li>
+      </ul>
+    </div>
+    <main>
+      <div style="padding: 0 48px">
+        <div class="main_header">
+          <button class="profile_icon2">
+            <img
+              src="https://lh3.googleusercontent.com/a/ACg8ocJplP-gLQqkVDYrVv-wp_vVVR42n6tmxIuciGZk3yKe=s96-c-br100-rg-mo"
+              alt=""
+            />
+            <div class="profile_icon2_camera_icon"></div>
+          </button>
+          <h2 style="margin: 18px 0 18px 0; font-weight: 500">
+            박신향님, 환영합니다
+          </h2>
+          <p style="color: rgb(95, 99, 104)">
+            정보, 개인 정보 보호 및 보안 설정을 관리하여 나에게 맞는 방식으로
+            Google을 사용할 수 있습니다.
+            <a href="" style="color: rgb(26, 115, 232)">자세히 알아보기</a>
+          </p>
+        </div>
+        <section>
+          <div class="main_content" style="display: flex">
+            <div class="main_content_1" style="margin-right: 12px">
+              <div class="main_content_1_container">
+                <a href="" class="main_content_1_inner">
+                  <div class="main_content_1_top">
+                    <div class="main_content_1_top_left">
+                      <p style="font-weight: 500; font-size: 22px">
+                        개인 정보 보호 및 맞춤설정
+                      </p>
+                      <p style="font-size: 14px; padding-top: 12px">
+                        Google 계정에 저장된 데이터를 확인하고 Google 사용
+                        환경을 맞춤설정하기 위해 어떤 활동을 저장할지
+                        선택합니다.
+                      </p>
+                    </div>
+                    <div class="main_content_1_top_right">
+                      <img
+                        src="https://www.gstatic.com/identity/boq/accountsettingsmobile/dataandpersonalization_icon_96x96_cdb6dff2e31ed6745ece4662231bfd48.png"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                </a>
+                <a href="">
+                  <div class="main_content_1_bottom">
+                    데이터 및 개인 정보 보호 관리
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="main_content_1" style="margin-left: 12px">
+              <div class="main_content_1_container">
+                <a href="" class="main_content_2_inner">
+                  <div class="main_content_2_top">
+                    <div class="main_content_2_top_left">
+                      <p style="font-weight: 500; font-size: 22px">
+                        보안 도움말 있음
+                      </p>
+                      <p style="font-size: 14px; padding-top: 12px">
+                        보안 진단에서 보안 도움말을 확인하세요
+                      </p>
+                    </div>
+                    <div class="main_content_2_top_right">
+                      <img
+                        src="https://www.gstatic.com/identity/boq/accountsettingsmobile/securitycheckup_green_with_new_shield_96x96_26d2e3da755cc2e67209838c9cd08271.png"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                </a>
+                <a href="">
+                  <div class="main_content_2_bottom">보안 도움말 검토하기</div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="main_content_3">
+            <div class="main_content_3_container">
+              <a href="">
+                <div class="main_content_3_top">
+                  <div class="main_content_3_top_left">
+                    <p style="font-weight: 500; font-size: 22px">
+                      개인정보 보호를 위한 추천 설정 이용 가능
+                    </p>
+                    <p style="font-size: 14px; padding-top: 12px">
+                      개인정보 보호 진단을 실행하고 나에게 맞는 설정을
+                      선택하세요.
+                    </p>
+                  </div>
+                  <div class="main_content_3_top_right">
+                    <img
+                      src="https://www.gstatic.com/identity/boq/accountsettingsmobile/privacycheckup_scene_with_new_shield_316x112_6f524a4a87d89af8e0120501a6295875.png"
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </a>
+              <a href="">
+                <div class="main_content_3_bottom">제안 검토(3)</div>
+              </a>
+            </div>
+          </div>
+          <div class="main_content_3">
+            <div class="main_content_4_container">
+              <div class="main_content_4_top">
+                <p style="font-weight: 500; font-size: 22px">
+                  다른 내용을 찾고 있나요?
+                </p>
+              </div>
+              <div class="main_content_4_bottom">
+                <a href="">
+                  <div class="main_content_4_li">
+                    <img
+                      src="https://www.gstatic.com/identity/boq/accountsettingsmobile/websettings_search_24x24_7fe3ea4597e9dac907a66deed95eb727.png"
+                      alt=""
+                    />
+                    <span>Google 계정 검색</span>
+                    <i
+                      class="fa-solid fa-chevron-right"
+                      style="color: #2c2f2e"
+                    ></i>
+                  </div>
+                </a>
+                <a href="">
+                  <div class="main_content_4_li">
+                    <img
+                      src="https://www.gstatic.com/identity/boq/accountsettingsmobile/search_support_24x24_cb612bd5b13215e48a9fbf99b4f3601b.png"
+                      alt=""
+                    />
+                    <span>지원 옵션 보기</span>
+                    <i
+                      class="fa-solid fa-chevron-right"
+                      style="color: #2c2f2e"
+                    ></i>
+                  </div>
+                </a>
+                <a href="">
+                  <div class="main_content_4_li">
+                    <img
+                      src="https://www.gstatic.com/identity/boq/accountsettingsmobile/menu_feedback_24x24_fe8ef3663c826d5218dfd17847430fa5.png"
+                      alt=""
+                    />
+                    <span>의견 보내기</span>
+                    <i
+                      class="fa-solid fa-chevron-right"
+                      style="color: #2c2f2e"
+                    ></i>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="main_content_5">
+            <div class="main_content_5_li" style="font-size: 14px">
+              <div>
+                <span>
+                  설정 내용은 본인만 확인할 수 있습니다. 지도, Google 검색 또는
+                  자주 이용하는 기타 Google 서비스에 관한 설정도 검토하는 것이
+                  좋습니다. Google에서는 사용자의 데이터를 안전하게 보호합니다.
+                </span>
+                <span style="color: #0b57d0">자세히 알아보기</span>
+              </div>
+              <img
+                style="margin-left: 12px"
+                src="https://www.gstatic.com/identity/boq/accountsettingsmobile/privacypolicy_icon_with_new_shield_48x48_3426417659bc0ba9f7866eead0c3e857.png"
+                alt=""
+              />
+            </div>
+            <div></div>
+          </div>
+        </section>
+      </div>
+      <footer>
+        <a href="">개인정보처리방침</a><a href="">약관</a><a href="">도움말</a
+        ><a href="">정보</a>
+      </footer>
+    </main>
+  </body>
+  <script src="/web-practice/youtube_google_account.js"></script>
+</html>
